@@ -1,7 +1,8 @@
 # Forge of Empires Bot
 
-<p align="center">![](https://github.com/sailor-elite/Foe_bot/blob/master/example.gif)</p>
-
+<p align="center">
+  <img src="https://github.com/sailor-elite/Foe_bot/blob/master/example.gif" alt="animated" />
+</p>
 
 A simple bot that automates functions of the game such as:
 - collecting money from residential buildings,
