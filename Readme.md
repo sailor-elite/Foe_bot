@@ -1,6 +1,6 @@
 # Forge of Empires Bot
 
-<p align="center">[](https://github.com/sailor-elite/Foe_bot/blob/master/example.gif)</p>
+<p align="center">![](https://github.com/sailor-elite/Foe_bot/blob/master/example.gif)</p>
 
 
 A simple bot that automates functions of the game such as:
