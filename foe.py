@@ -6,24 +6,24 @@ import pygetwindow as gw
 import pyautogui
 import mouse
 
-money_img = cv2.imread("../../PycharmProjects/Foe_bot/images/money.jpg", cv2.IMREAD_COLOR)
+money_img = cv2.imread("images/money.jpg", cv2.IMREAD_COLOR)
 
-hammer_img = cv2.imread("../../PycharmProjects/Foe_bot/images/hammer.jpg", cv2.IMREAD_COLOR)
-hammer_produce = cv2.imread("../../PycharmProjects/Foe_bot/images/production.jpg", cv2.IMREAD_COLOR)
+hammer_img = cv2.imread(".images/hammer.jpg", cv2.IMREAD_COLOR)
+hammer_produce = cv2.imread("images/production.jpg", cv2.IMREAD_COLOR)
 
-soldier = cv2.imread("../../PycharmProjects/Foe_bot/images/soldier.jpg", cv2.IMREAD_COLOR)
-training = cv2.imread("../../PycharmProjects/Foe_bot/images/train.jpg", cv2.IMREAD_COLOR)
+soldier = cv2.imread("images/soldier.jpg", cv2.IMREAD_COLOR)
+training = cv2.imread(".images/train.jpg", cv2.IMREAD_COLOR)
 
-pack = cv2.imread("../../PycharmProjects/Foe_bot/images/pack.jpg", cv2.IMREAD_COLOR)
-pack_produce = cv2.imread("../../PycharmProjects/Foe_bot/images/pack_produce.jpg", cv2.IMREAD_COLOR)
+pack = cv2.imread("images/pack.jpg", cv2.IMREAD_COLOR)
+pack_produce = cv2.imread("images/pack_produce.jpg", cv2.IMREAD_COLOR)
 
-x_button = cv2.imread("../../PycharmProjects/Foe_bot/images/x_button.jpg", cv2.IMREAD_COLOR)
+x_button = cv2.imread("images/x_button.jpg", cv2.IMREAD_COLOR)
 
-star_button = cv2.imread("../../PycharmProjects/Foe_bot/images/star.jpg", cv2.IMREAD_COLOR)
-support_button = cv2.imread("../../PycharmProjects/Foe_bot/images/support.jpg", cv2.IMREAD_COLOR)
-redeem_button = cv2.imread("../../PycharmProjects/Foe_bot/images/redeem.jpg", cv2.IMREAD_COLOR)
+star_button = cv2.imread("images/star.jpg", cv2.IMREAD_COLOR)
+support_button = cv2.imread("images/support.jpg", cv2.IMREAD_COLOR)
+redeem_button = cv2.imread("images/redeem.jpg", cv2.IMREAD_COLOR)
 
-
+WindowsTitle = 'Forge of Empires - Google Chrome'
 
 
 def get_Picture_FOE():
@@ -32,7 +32,7 @@ def get_Picture_FOE():
 
     :return:
     """
-    w = gw.getWindowsWithTitle('Forge of Empires - Google Chrome')[0]
+    w = gw.getWindowsWithTitle(WindowsTitle)[0]
     w.activate()
     money_bool = False
     hammer_bool = False
