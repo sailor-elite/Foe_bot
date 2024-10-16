@@ -18,7 +18,7 @@ class App:
         self.root = root
         self.running = False
         self.thread = None
-        self.image = Image.open('../../PycharmProjects/Foe_bot/images/foelogo.jpg')
+        self.image = Image.open(images/foelogo.jpg')
         self.image = ImageTk.PhotoImage(self.image)
 
 
@@ -178,7 +178,7 @@ class App:
     def run_foe(self):
         if self.Web_browser_condition():
             while self.running:
-                foe.get_Picture_FOE()  # Tutaj uruchamiamy funkcję w osobnym wątku
+                foe.get_Picture_FOE()
         else:
             print("Window not found")
 
